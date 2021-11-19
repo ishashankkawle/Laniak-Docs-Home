@@ -1,0 +1,37 @@
+.cat-banner-button
+{
+    color: white;
+    padding-top: 10px;
+}
+.cat-banner-button :hover
+{
+    background-color: #191919;
+    cursor: pointer;
+}
+.cat-banner-link
+{
+    font-size: 14px;
+}
+.cat-banner-title
+{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.cat-updates-box
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cat-card
+{
+    background: #191919;
+    height: 75px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left: 5px solid #1db4c2;
+    border-radius: 5px;
+}
+.cat-card-icon
+{
+    height: 73px;
+}

@@ -1,0 +1,18 @@
+.footer-panel 
+{
+    height: 400px;
+}
+.link-sec
+{
+    text-align: center;
+}
+.footer-link-sec
+{
+    position: relative;
+    top:25%;
+}
+.footer-link
+{
+    margin-left:10px;
+    margin-right:10px;
+}

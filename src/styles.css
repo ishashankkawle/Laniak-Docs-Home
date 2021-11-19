@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body
+{
+    /* font-family: 'Segoe UI Light' !important; */
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0,0,0) !important;
+    color: #fff !important;
+}
+html{
+    padding :0px;
+    margin: 0px
+}

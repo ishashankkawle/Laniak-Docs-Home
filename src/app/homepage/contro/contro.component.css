@@ -1,0 +1,49 @@
+.contro-parent
+{
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+.contro-panel
+{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgb(66, 65, 65) !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.8;
+    content: "";
+}
+
+.contro-box
+{
+    padding: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.contro-title
+{
+    margin-bottom: 100px;
+}
+.contro-btn
+{
+    border: 1px solid #fff;
+}
+.contro-cell
+{
+    padding-left: 0px;
+    padding-right: 0px;
+} 
+.contro-cell-count
+{
+    color: #262626;
+}
+.contro-sub
+{
+    margin-top: 50px;
+}
