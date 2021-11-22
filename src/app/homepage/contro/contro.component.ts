@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ControComponent implements OnInit 
 {
-  Likes : number = 135134;
-  Uploads : number = 21023;
-  Recommendations : number = 59491254;
+  Likes : number = 100;
+  Uploads : number = 23;
+  Recommendations : number = 254;
   
   constructor() { }
 

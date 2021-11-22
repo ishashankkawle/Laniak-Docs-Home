@@ -1,63 +1,61 @@
 <div class="contro-parent">
-    <div class="contro-panel"></div>
+    <!-- <div class="contro-panel"></div> -->
     <div class="contro-box">
         <h1 class="contro-title">Total Contributions till now</h1>
         <div class="container">
             <div class="row">
                 <div class="col-4 contro-cell">
-                    <div class="info-button alert">
-                        <a class="button"><span class="mif-favorite mif-lg"></span> Favorites</a>
-                        <span class="info contro-cell-count">{{Likes}}</span>
-                    </div>
+                    <div class="contro-ball contro-count mx-auto"><span class="align-middle">{{Likes}}</span></div><br>
+                    <span class="material-icons" style="color: rgb(248, 178, 0);">favorite</span><br>
+                    <span class="info contro-cell-count">Favourites</span>
                 </div>
                 <div class="col-4 contro-cell">
-                    <div class="info-button secondary">
-                        <a class="button"><span class="mif-cloud-upload mif-lg"></span> Uploads</a>
-                        <span class="info contro-cell-count">{{Uploads}}</span>
-                    </div>
+                    <div class="contro-ball contro-count mx-auto"><span class="align-middle">{{Uploads}}</span></div><br>
+                    <span class="material-icons" style="color: rgb(0, 166, 255);">publish</span><br>
+                    <span class="info contro-cell-count">Uploads</span>
                 </div>
                 <div class="col-4 contro-cell">
-                    <div class="info-button primary">
-                        <a class="button"><span class="mif-bubbles mif-lg"></span> Shares</a>
-                        <span class="info contro-cell-count">{{Recommendations}}</span>
-                    </div>
+                    <div class="contro-ball contro-count mx-auto"><span class="align-middle">{{Recommendations}}</span></div><br>
+                    <span class="material-icons" style="color: rgb(151, 250, 12);">share</span><br>
+                    <span class="info contro-cell-count">Recommendations</span>
                 </div>
             </div>
+            <div class="row" style="margin-top: 7%;">
+                <h5 class="contro-sub">Want to become contributer? It's easy, Just Create an account</h5> <br>
 
-            <h5 class="contro-sub">Want to become contributer? It's easy, Just Create an account</h5>
-
-            <div class="row justify-content-center" style="text-align: start;">
-                <div class="col-4" style="border: 1px solid lightgray;">
-                    <form>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                <div class="row justify-content-center" style="text-align: start;">
+                    <div class="col-4" style="border: 1px solid lightgray; padding: 3%;">
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="repassword" class="form-label">Confirm assword</label>
+                                <input type="password" class="form-control" id="repassword" placeholder="Re-enter password"
+                                    required>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="male" checked>
+                                <label class="form-check-label" for="male">
+                                    Male
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="female">
+                                <label class="form-check-label" for="female">
+                                    Female
+                                </label>
+                            </div>
+                        </form>
+                        <div class="dialog-actions">
+                            <button class="btn btn-success contro-btn">Apply</button>
+                            <button class="btn btn-danger contro-btn">Cancel</button>
                         </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="repassword" class="form-label">Confirm assword</label>
-                            <input type="password" class="form-control" id="repassword" placeholder="Re-enter password"
-                                required>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="male" checked>
-                            <label class="form-check-label" for="male">
-                                Male
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="female">
-                            <label class="form-check-label" for="female">
-                                Female
-                            </label>
-                        </div>
-                    </form>
-                    <div class="dialog-actions">
-                        <button class="btn btn-success">Apply</button>
-                        <button class="btn btn-light">Cancel</button>
                     </div>
                 </div>
             </div>

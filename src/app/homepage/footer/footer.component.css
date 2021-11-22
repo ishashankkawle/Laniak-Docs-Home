@@ -9,10 +9,19 @@
 .footer-link-sec
 {
     position: relative;
-    top:25%;
 }
 .footer-link
 {
     margin-left:10px;
     margin-right:10px;
+}
+.foot-profile-link
+{
+    text-decoration: none;
+    color: greenyellow;
+    margin: 3%;
+}
+ul
+{
+    list-style-type: none;
 }

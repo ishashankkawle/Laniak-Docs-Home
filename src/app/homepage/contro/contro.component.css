@@ -1,3 +1,16 @@
+.contro-ball
+{
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 28%;
+    height: 100%;
+}
+.contro-count
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .contro-parent
 {
     position: relative;
@@ -8,13 +21,12 @@
 {
     width: 100% !important;
     height: 100% !important;
-    background-color: rgb(66, 65, 65) !important;
+    background: rgb(66, 65, 65) !important;
     position: absolute;
     top: 0;
     bottom: 0;
     z-index: -1;
     opacity: 0.8;
-    content: "";
 }
 
 .contro-box
@@ -22,8 +34,8 @@
     padding: 5%;
     margin-bottom: 5%;
     text-align: center;
-    z-index: 1;
     overflow: hidden;
+    background: rgb(66, 65, 65) !important;
 }
 
 .contro-title
@@ -32,7 +44,7 @@
 }
 .contro-btn
 {
-    border: 1px solid #fff;
+    margin: 1%;
 }
 .contro-cell
 {
@@ -41,7 +53,7 @@
 } 
 .contro-cell-count
 {
-    color: #262626;
+    color: #ffffff;
 }
 .contro-sub
 {
