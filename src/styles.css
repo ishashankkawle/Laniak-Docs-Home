@@ -5,6 +5,7 @@ body
     font-family: 'Poppins', sans-serif;
     background: rgb(0,0,0) !important;
     color: #fff !important;
+    overflow-x: clip;
 }
 html{
     padding :0px;

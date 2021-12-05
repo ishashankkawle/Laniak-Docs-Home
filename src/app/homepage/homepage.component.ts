@@ -48,8 +48,9 @@ export class HomepageComponent {
       this.camera.position.y += 1;
     }
     this.lastScrollTop = st 
-    this.rotator.rotation.x += 0.2;
-    this.rotator.rotation.y += 0.2;
+    this.rotator.rotation.z += 0.05;
+    this.rotator.rotation.y += 0.1;
+    this.rotator.rotation.x += 0.1;
   }
 
 
@@ -84,7 +85,7 @@ export class HomepageComponent {
     const core9: THREE.Object3D = this.getBall(15, 200, 200, 0x2727)
     this.rotator = this.getBall(0, 200, 200, 0x2727)
     const fillerball1: THREE.Object3D = this.getBall(5, 25, 25, 0xf0804)
-    const fillerball2: THREE.Object3D = this.getBall(5, 25, 25, 0xf0804)
+    const fillerball2: THREE.Object3D = this.getBall(5, 25, 25, 0xfffff0)
     const fillerball3: THREE.Object3D = this.getBall(5, 25, 25, 0xf0804)
     const fillerball4: THREE.Object3D = this.getBall(4, 20, 20, 0xff0000)
     const fillerball5: THREE.Object3D = this.getBall(5, 20, 20, 0xfa2512)
@@ -232,7 +233,7 @@ export class HomepageComponent {
   }
 
   private animateBall() {
-    //this.rotator.rotation.x += 0.001;
+    this.rotator.rotation.z += 0.001;
     this.rotator.rotation.y += 0.002;
     for (let index = 0; index < this.ballArray.length; index++) 
     {

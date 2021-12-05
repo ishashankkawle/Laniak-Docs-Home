@@ -1,0 +1,26 @@
+.cat-banner-title
+{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.cat-updates-box
+{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.cat-catlog-item
+{
+    padding: 2%;
+    border-left: 3px solid transparent !important;
+    margin: 2%;
+    background: #161616;
+}
+
+.cat-catlog-item:hover
+{
+    padding: 2%;
+    background: #212021 !important;
+    border-left: 3px solid #c12b87 !important;
+    border-radius: 2%;
+    cursor: pointer;
+}

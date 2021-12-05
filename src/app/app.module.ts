@@ -13,6 +13,7 @@ import { HomepageModule } from './homepage/homepage.module';
 import { HttpClientModule } from '@angular/common/http';
 import {HttpService} from './services/HttpService';
 import { CatBannerComponent } from './catalogpage/cat-banner/cat-banner.component';
+import { CatCatalogComponent } from './catalogpage/cat-catalog/cat-catalog.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { CatBannerComponent } from './catalogpage/cat-banner/cat-banner.componen
     FooterComponent,
     CatalogpageComponent,
     CatBannerComponent,
+    CatCatalogComponent,
   ],
   imports: [
     BrowserModule,
