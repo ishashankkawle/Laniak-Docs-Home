@@ -1,0 +1,21 @@
+.page-list-item
+{
+    margin-right: 1%;
+    padding: 2%;
+    margin-left: 1%;
+}
+.page-list-item:hover
+{
+    margin-right: 1%;
+    padding: 2%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.page-list-block
+{
+    margin-bottom: auto;
+    margin-top: 7%;
+    border: 1px solid lightgray;
+    border-radius: 5%;
+    padding: 5%;
+}

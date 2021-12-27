@@ -14,6 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
 import {HttpService} from './services/HttpService';
 import { CatBannerComponent } from './catalogpage/cat-banner/cat-banner.component';
 import { CatCatalogComponent } from './catalogpage/cat-catalog/cat-catalog.component';
+import { VpPagelistComponent } from './viewpage/vp-pagelist/vp-pagelist.component';
+import { ViewpageComponent } from './viewpage/viewpage.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { CatCatalogComponent } from './catalogpage/cat-catalog/cat-catalog.compo
     CatalogpageComponent,
     CatBannerComponent,
     CatCatalogComponent,
+    ViewpageComponent,
+    VpPagelistComponent,
   ],
   imports: [
     BrowserModule,

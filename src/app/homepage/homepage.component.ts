@@ -49,8 +49,8 @@ export class HomepageComponent {
     }
     this.lastScrollTop = st 
     this.rotator.rotation.z += 0.05;
-    this.rotator.rotation.y += 0.1;
-    this.rotator.rotation.x += 0.1;
+    this.rotator.rotation.y += 0.01;
+    this.rotator.rotation.x += 0.05;
   }
 
 

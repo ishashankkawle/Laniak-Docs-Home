@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-catalogpage',
   templateUrl: './catalogpage.component.html',
   styleUrls: ['./catalogpage.component.css']
 })
-export class CatalogpageComponent implements OnInit {
+export class CatalogpageComponent {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit() {
+  public openPage() {
+    this.router.navigate(['/viewpage']);
   }
-
 }
