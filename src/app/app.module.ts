@@ -16,6 +16,7 @@ import { CatBannerComponent } from './catalogpage/cat-banner/cat-banner.componen
 import { CatCatalogComponent } from './catalogpage/cat-catalog/cat-catalog.component';
 import { VpPagelistComponent } from './viewpage/vp-pagelist/vp-pagelist.component';
 import { ViewpageComponent } from './viewpage/viewpage.component';
+import { VpMainpageComponent } from './viewpage/vp-mainpage/vp-mainpage.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ViewpageComponent } from './viewpage/viewpage.component';
     CatCatalogComponent,
     ViewpageComponent,
     VpPagelistComponent,
+    VpMainpageComponent,
   ],
   imports: [
     BrowserModule,
